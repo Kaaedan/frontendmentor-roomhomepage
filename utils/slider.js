@@ -3,7 +3,7 @@ const previous = document.getElementById("previous");
 const imgs = document.getElementById("imgs");
 const img = document.querySelectorAll("#imgs img");
 const slider_texts = document.getElementById("slider_text");
-const slider_text = document.querySelectorAll("#slider_texts span");
+const slider_text = document.getElementsByClassName("slider_text");
 
 let slide = 0;
 
